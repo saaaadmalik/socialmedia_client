@@ -1,0 +1,84 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 4rem;
+    position: relative;
+}
+
+.auth>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* for left side */
+.a-left{
+    gap: 4rem;
+}
+.a-left>img{
+    width:4rem;
+    height: 4rem;
+}
+
+.webname>h1{
+    font-size: 3rem;
+    /* background-color: red; */
+
+    /* create the gradient */
+    background-image: var(--buttonBg);
+
+    /* bg size and repeat properties */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* use text as a mask for bg */
+    /* this will show gradient as text rather than element bg */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.webname>h6{
+    font-size: 1rem;
+}
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.infoForm>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius:8px;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1;
+}
+.submit-btn{
+    width: 6rem;
+    height: 2.2rem;
+    font-size: 15px;
+    
+}
+.authform{
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
